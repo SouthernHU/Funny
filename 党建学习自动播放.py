@@ -5,8 +5,8 @@ class AutoPlay():
     def __init__(self):
         chrome_driver = 'C:\Program Files\Google\Chrome\Application\chromedriver.exe'  #chromedriver的文件位置
         self.driver = webdriver.Chrome( executable_path=chrome_driver )
-        self.id = "3120301027"
-        self.pwd = "udg67GsfGDhrfD15"
+        self.id = "stuID"
+        self.pwd = "password"
         self.loginUrl = "http://xjtudj.edu.cn/login.html"
         # 团课Xpath
         self.tuankeXPath = '//*[@id="learnPlan"]/table/tbody/tr[2]/td[7]'
